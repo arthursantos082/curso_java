@@ -1,4 +1,4 @@
-// exercicio de fixacacao
+// exercicio de fixacao
 // aula 31 do curso de java do prof. nelio alves
 
 import java.util.Locale;
