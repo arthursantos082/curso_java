@@ -20,5 +20,7 @@ public class ExProposto01 {
         soma = num1 + num2;
 
         System.out.println("SOMA: " + soma);
+
+        input.close();
     }
 }

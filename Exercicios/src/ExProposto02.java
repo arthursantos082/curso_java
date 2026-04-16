@@ -18,6 +18,8 @@ public class ExProposto02 {
 
         float area = (float) (pi * Math.pow(raio, 2));
 
-        System.out.printf("A=%.4f", area);
+        System.out.printf("A=%.4f\n", area);
+
+        input.close();
     }
 }

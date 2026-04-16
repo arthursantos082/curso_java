@@ -24,5 +24,7 @@ public class ExProposto03 {
         diferenca = (num1 * num2) - (num3 * num4);
 
         System.out.println("DIFERENÇA = " + diferenca);
+
+        input.close();
     }
 }
