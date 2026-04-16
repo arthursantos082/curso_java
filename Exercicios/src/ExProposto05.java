@@ -32,5 +32,7 @@ public class ExProposto05 {
         float valorTotal = (qtdPecas1 * valorPecas1) + (qtdPecas2 * valorPecas2);
 
         System.out.printf("VALOR A PAGAR: %.2f\n", valorTotal);
+
+        input.close();
     }
 }
