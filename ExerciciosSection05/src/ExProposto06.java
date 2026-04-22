@@ -1,0 +1,33 @@
+/*
+ Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos
+ seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em
+ nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
+*/
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExProposto06 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
+
+        System.out.println("INFORME UM VALOR QUALQUER: ");
+        float val = input.nextFloat();
+
+        if (val <= 25) {
+            System.out.println("Intervalo [0, 25]");
+        }
+        else if (val <= 50) {
+            System.out.println("Intervalo (25, 50]");
+        }
+        else if (val <= 100) {
+            System.out.println("Intervalo (75, 100]");
+        }
+        else {
+            System.out.println("Fora de intervalo");
+        }
+
+        input.close();
+    }
+}
