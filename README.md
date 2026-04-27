@@ -30,8 +30,9 @@ O repositório está organizado em pastas que representam aulas, módulos ou tó
 
 ## Tecnologias utilizadas
 
-- Java  
-- IDE (Eclipse, IntelliJ ou similar)  
+- Java 25
+- Java 11
+- IDE's: Eclipse, IntelliJ  
 - Git e GitHub  
 
 ## Objetivo
