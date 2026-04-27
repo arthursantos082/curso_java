@@ -1,6 +1,6 @@
 # Curso Java
 
-Repositório dedicado aos estudos e práticas desenvolvidas ao longo de um curso de Java. O objetivo é consolidar os fundamentos da linguagem e evoluir gradualmente para conceitos mais avançados de programação.
+Repositório dedicado aos estudos e práticas desenvolvidas ao longo do curso Java COMPLETO Programação Orientada a Objetos + Projetos, do professor Nelio Alves. O objetivo é consolidar os fundamentos da linguagem e evoluir gradualmente para conceitos mais avançados de programação.
 
 ## Sobre o projeto
 
