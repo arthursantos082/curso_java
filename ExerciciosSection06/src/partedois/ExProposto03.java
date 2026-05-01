@@ -16,14 +16,12 @@ public class ExProposto03 {
         Locale.setDefault(Locale.US);
 
         int n = input.nextInt();
-        double mediaPond;
-
 
         for (int i = 0; i < (n); i++) {
             double x1 = input.nextDouble();
             double x2 = input.nextDouble();
             double x3 = input.nextDouble();
-            mediaPond = (x1*2.0 + x2*3.0 + x3*5.0) / 10;
+            double mediaPond = (x1*2.0 + x2*3.0 + x3*5.0) / 10;
             System.out.printf("%.1f\n", mediaPond);
         }
 
