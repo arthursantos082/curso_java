@@ -17,7 +17,6 @@ public class ExProposto05 {
         for (int i = 1; i <= n; i++) {
             fatorial *= i;
         }
-
         System.out.println(fatorial);
 
         input.close();
