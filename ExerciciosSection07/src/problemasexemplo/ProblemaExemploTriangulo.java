@@ -19,3 +19,4 @@ public class ProblemaExemploTriangulo {
         input.close();
     }
 }
+// resolvendo um problema sem orientacao a objetos
