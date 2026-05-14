@@ -1,4 +1,6 @@
-package problemasexemplo;
+package application;
+
+import entities.Triangulo;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 // resolvendo um problema utilizando orientacao a objetos
 
-package problemasexemplo;
+package entities;
 
 public class Triangulo {
     public double a;

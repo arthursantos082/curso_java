@@ -1,6 +1,8 @@
 // comecando a resolver um segundo problema usando orientacao a objetos
 
-package problemasexemplo;
+package application;
+
+import entities.Produto;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -21,6 +23,8 @@ public class ProblemaExemploProduto {
 
         System.out.println("Quantity in stock: ");
         product.quantity = input.nextInt();
+
+        System.out.println(product.name + " " + product.price + " " + product.quantity);
 
         input.close();
     }

@@ -1,4 +1,4 @@
-package problemasexemplo;
+package entities;
 
 public class Produto {
     public String name;
