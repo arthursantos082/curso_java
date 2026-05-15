@@ -15,16 +15,29 @@ public class ProblemaExemploProduto {
         Produto product = new Produto();
 
         System.out.println("Enter product data: ");
-        System.out.println("Name: ");
+        System.out.print("Name: ");
         product.name = input.nextLine();
 
-        System.out.println("Price: ");
+        System.out.print("Price: ");
         product.price = input.nextDouble();
 
-        System.out.println("Quantity in stock: ");
+        System.out.print("Quantity in stock: ");
         product.quantity = input.nextInt();
 
-        System.out.println(product.name + " " + product.price + " " + product.quantity);
+        System.out.println();
+        System.out.println("Product Data: " + product);
+
+        System.out.print("Enter the number of products to be added in stock: ");
+        int quantity = input.nextInt();
+        product.addProducts(quantity);
+
+        System.out.println("Updated Data: " + product);
+
+        System.out.print("Enter the number of products to be removed from stock: ");
+        quantity = input.nextInt();
+        product.removeProducts(quantity);
+
+        System.out.println("Updated Data: " + product);
 
         input.close();
     }
