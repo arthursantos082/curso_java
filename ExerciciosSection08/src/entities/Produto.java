@@ -1,3 +1,6 @@
+//classe para os produtos
+//utilizando seus metodos e atribuindo os valores inseridos pelo usuario no prog. principal
+
 package entities;
 
 public class Produto {
