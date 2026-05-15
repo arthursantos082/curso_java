@@ -1,4 +1,4 @@
-// comecando a resolver um segundo problema usando orientacao a objetos
+// comecando a resolver um segundo problema com orientacao a objetos
 // problema exemplo concluido
 
 package application;
