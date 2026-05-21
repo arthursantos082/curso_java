@@ -19,6 +19,7 @@ public class ExProposto01Retangulo {
         Retangulo retangulo =  new Retangulo();
 
         System.out.println("Informe a largura e a altura do retangulo: ");
+
         retangulo.l = input.nextDouble();
         retangulo.h = input.nextDouble();
 

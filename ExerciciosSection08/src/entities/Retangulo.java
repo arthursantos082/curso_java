@@ -25,5 +25,6 @@ public class Retangulo {
                 "\n" +
                 "DIAGONAL = " +
                 String.format("%.2f", diagonal()) ;
+
     }
 }
