@@ -1,5 +1,7 @@
-// ler a cotacao do dolar, e depois o valor em dolares a ser comprado em reais
-// informar quantos reais a pessoa vai pagar pelos dolares, considerando 6% de IOF sobre o valor em dolar
+/*
+ ler a cotacao do dolar, e depois o valor em dolares a ser comprado em reais
+ informar quantos reais a pessoa vai pagar pelos dolares, considerando 6% de IOF sobre o valor em dolar
+*/
 
 package application;
 
