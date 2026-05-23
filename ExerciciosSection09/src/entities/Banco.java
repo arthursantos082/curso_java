@@ -13,10 +13,12 @@ public class Banco {
         this.nomeDono = nomeDono;
     }
 
-    public Banco(int numConta, String nomeDono, double deposito) {
+    public Banco(int numConta, String nomeDono, double depositoInicial) {
         this.numConta = numConta;
         this.nomeDono = nomeDono;
-        this.saldo = deposito;
+        //this.saldo = deposito; -> se a regra de negocio do deposito mudar, se torna necessario o que segue:
+        //apenas um ponto de alteracao (o metodo)
+        depositarSaldo(depositoInicial);
     }
 
     public int getNumConta() {
@@ -35,18 +37,25 @@ public class Banco {
         return saldo;
     }
 
+    /*
+    erro 1
+    na verdade deveria apenas ser feito o get (so pode mudar atraves de metodos)
     public void setSaldo(double deposito) {
         this.saldo = deposito;
     }
+    */
 
 
-    //altera o valor do deposito
+    // realiza o deposito
     public void depositarSaldo(double deposito){
-        this.saldo += deposito;
+        // o "this" nao se torna mais necessario em funcao da inexistencia de um saldo como parametro
+        saldo += deposito;
     }
 
+    // realiza o saque
     public void sacarSaldo(double saque){
-        this.saldo -= (saque + 5.0);
+        // por convencao eu utilizei dois parametros diferentes de quantia em funcao de melhor leitura do codigo
+        saldo -= (saque + 5.0);
     }
 
     @Override

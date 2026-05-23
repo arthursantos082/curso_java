@@ -26,11 +26,13 @@ public class ExFixacaoBanco {
         if (Character.toLowerCase(checagemDeposito) == 's') {
             System.out.print("Informe o valor do deposito inicial: ");
             deposito = input.nextDouble();
-            conta.setSaldo(deposito);
+            //conta.setSaldo(deposito); -> ao inves de utilizar o set, definir com o metodo
+            conta.depositarSaldo(deposito); // forma correta
+
         }
         else {
-            deposito = 0.0;
-            conta.setSaldo(deposito);
+            //conta.setSaldo(deposito); segue a mesma linha do if
+            conta.depositarSaldo(0);
         }
 
         System.out.println("Dados da conta:");
