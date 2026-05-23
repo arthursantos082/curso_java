@@ -47,15 +47,15 @@ public class Banco {
 
 
     // realiza o deposito
-    public void depositarSaldo(double deposito){
+    public void depositarSaldo(double valorDeposito){
         // o "this" nao se torna mais necessario em funcao da inexistencia de um saldo como parametro
-        saldo += deposito;
+        saldo += valorDeposito;
     }
 
     // realiza o saque
-    public void sacarSaldo(double saque){
+    public void sacarSaldo(double valorSaque){
         // por convencao eu utilizei dois parametros diferentes de quantia em funcao de melhor leitura do codigo
-        saldo -= (saque + 5.0);
+        saldo -= (valorSaque + 5.0);
     }
 
     @Override
