@@ -39,7 +39,7 @@ public class ProblemaAlturas {
         for (int i = 0; i < pessoas.length; i++) {
             if (pessoas[i].getIdade() > 16) menorDe16 += 1;
         }
-        double pctgMenor16 = (double) menorDe16 / pessoas.length * 100;
+        double pctgMenor16 = (double) menorDe16 / pessoas.length * 100.0; // garantir 1 casa decimal
 
         System.out.printf("\nAltura media: %.2f\n", alturaMedia);
         System.out.println("Pessoas com menos de 16 anos: " + pctgMenor16 + "%");
