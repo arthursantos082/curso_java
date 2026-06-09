@@ -4,8 +4,6 @@
  em seguida, mostrar na tela todos os numeros negativos lidos
 */
 
-package problemanegativos;
-
 import java.util.Locale;
 import java.util.Scanner;
 
