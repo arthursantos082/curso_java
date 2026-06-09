@@ -17,7 +17,7 @@ public class ProblemaExemplo02 {
         int n = input.nextInt();
         Produto[] produto = new Produto[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < produto.length; i++) {
             input.nextLine();
             String nome = input.nextLine();
             double preco = input.nextDouble();
@@ -26,10 +26,10 @@ public class ProblemaExemplo02 {
         }
 
         double soma = 0.0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < produto.length; i++) {
             soma += produto[i].getPreco();
         }
-        double media = soma / n;
+        double media = soma / produto.length;
 
         System.out.printf("PRECO MEDIO: %.2f", media);
 
