@@ -15,8 +15,23 @@ public class ProblemaExemplo02 {
         Locale.setDefault(Locale.US);
 
         int n = input.nextInt();
+        Produto[] produto = new Produto[n];
 
+        for (int i = 0; i < n; i++) {
+            input.nextLine();
+            String nome = input.nextLine();
+            double preco = input.nextDouble();
+            // instanciar o objeto
+            produto[i] = new Produto(nome, preco);
+        }
 
+        double soma = 0.0;
+        for (int i = 0; i < n; i++) {
+            soma += produto[i].getPreco();
+        }
+        double media = soma / n;
+
+        System.out.printf("PRECO MEDIO: %.2f", media);
 
         input.close();
     }
