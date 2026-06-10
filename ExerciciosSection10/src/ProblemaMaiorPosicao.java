@@ -10,6 +10,7 @@ public class ProblemaMaiorPosicao {
         System.out.print("Quantos numeros ira digitar? ");
         int n = input.nextInt();
         double[] vetor = new double[n];
+        // auxiliar p reservar os valores das posicoes do vetor
         double maiorValor = vetor[0]; // a verificacao comeca do 0 (marco inicial ne esqueceu filho)
         int pos = 0;
 
