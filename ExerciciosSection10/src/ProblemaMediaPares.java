@@ -15,7 +15,7 @@ public class ProblemaMediaPares {
         int qtdPares = 0;
         int[] vetor = new int[n];
         int soma = 0;
-        double media = 0.0;
+        double media;
         boolean hasPar = false;
 
         for (int i = 0; i < vetor.length; i++) {
