@@ -1,6 +1,6 @@
 /*
  ler um número inteiro N e depois um vetor de N números reais
- mostrar na tela a média arithmetic de todos os elementos com tres casas decimais
+ mostrar na tela a média aritmética de todos os elementos com tres casas decimais
  mostrar todos os elementos do vetor que estejam abaixo da média com uma casa decimal
 */
 
