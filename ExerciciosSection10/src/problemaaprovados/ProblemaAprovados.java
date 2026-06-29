@@ -1,3 +1,8 @@
+/*
+ ler um conjunto de N nomes de alunos, e as notas que eles tiraram nos 1 e 2 semestres
+ imprimir os nomes dos alunos aprovados, considerando media >= a 6.0
+*/
+
 package problemaaprovados;
 
 import java.util.Locale;
